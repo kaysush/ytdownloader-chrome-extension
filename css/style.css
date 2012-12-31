@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+body{
+
+
+	 font-family: Englebert;
+	 height:140px;
+	 width: 210px;
+	 overflow: hidden;
+}
+h1{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Englebert;
+	font-size: 25px;
+	width:200px;
+	overflow: hidden;
+}
+
+#message{
+	height:130px;
+	width: 200px;
+	overflow: hidden;
+
+}
+a{
+	color:gray;
+	text-decoration: underline;
+	overflow: hidden;
+}
+a:hover{
+	color:gray;
+	text-decoration: none;
+	overflow: hidden;
+}
+a:visited{
+	color:gray;
+	text-decoration: underline;
+	overflow: hidden;
+}
+a:active{
+	color:red;
+	text-decoration: underline;
+	overflow: hidden;
+}

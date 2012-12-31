@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+
+#download
+{
+	position:relative !important;
+	top:-2px !important;
+	color: black !important;
+	margin-left: 30px !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))) !important;
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%) !important;
+}
+
+#download-links{
+position: absolute !important;
+z-index: 999;
+left: 194px !important;
+top:51px !important;
+width: 120px !important;
+border-style: solid !important;
+border-width: 2px !important;
+border-color: gray;
+background:rgb(255,255,255);
+}
+
+
+#link{
+    margin:8px;
+position:relative;
+        width:100px;
+        left:10px;
+        font-family: Iceland;
+        background: rgb(255,255,255);
+}
+
+
+#link a:link{
+        font-family:Iceland;
+        font-size: 20px;
+        text-decoration: none;
+        color:black;
+    }
+#link    a:hover{
+        font-family:Iceland;
+        font-size: 20px;
+        color:black;
+        text-decoration: none;
+        background: rgb(254,255,232); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,232,1)), color-stop(100%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+
+
+
+    }
+
+    #link a:visited{
+        padding-top: 5px;
+        font-family:Iceland;
+        color:black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    #link a:active{
+        padding-top: 5px;
+        font-family:Iceland;
+        color:black;
+        font-size: 20px;
+        text-decoration: none;
+    }
